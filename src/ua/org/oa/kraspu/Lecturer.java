@@ -93,7 +93,7 @@ public class Lecturer extends Dean{
     if (isPositionAssistant()) System.out.print(" assistant ");
     else if (isPositionAssociateProfessor()) System.out.print(" Associate Professor ");
     else System.out.print(" Professor ");
-    System.out.print("\t Title:");
+    System.out.print("\n\t Title:");
     if (isTitleProfessor()) System.out.print(" Professor");
     else System.out.print(" Associate Professor");
     if (isPhD()) System.out.print(", PhD");

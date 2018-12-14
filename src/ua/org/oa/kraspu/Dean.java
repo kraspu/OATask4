@@ -75,7 +75,7 @@ public class Dean extends Moose{
 
   public void print() {
     System.out.print(getFirstName() + " " + getLastName() + "\n\t Position: Dean ");
-    System.out.print("\t Title:");
+    System.out.print("\n\t Title:");
     if (isTitleProfessor()) System.out.print(" Professor");
     else System.out.print(" Associate Professor");
     if (isPhD()) System.out.print(", PhD");
